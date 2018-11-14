@@ -6,7 +6,7 @@
 	</head>
 	<body>
     <?php
-   include 'crud.php';
+   include_once 'crud.php';
     listerEleve();
    
     ?>
