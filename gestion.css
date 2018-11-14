@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+}
+#nav{
+	list-style-type: none;
+
+	display: flex;
+}
+*.espace{
+	margin:30px;
+}
+
+.soulign{
+	text-decoration: none;
+	font-size: 30px;
+}
+ul li ul{
+	visibility: hidden;
+	display: block;
+	position: relative;
+}
+ul li:hover ul{
+	visibility: visible;
+	display: block;
+	background-color: white;
+    -webkit-transforme: rotative(0deg);
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+
+
+}
+form{
+    width:50%; 
+	margin: auto;
+	margin-top:10%;
+}
+div{
+   margin-top: 4%;
+}
+	
