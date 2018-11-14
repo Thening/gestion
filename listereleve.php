@@ -7,7 +7,7 @@
 	<body>
     <?php
    include 'crud.php';
-    return listerEleve();
+    listerEleve();
    
     ?>
     

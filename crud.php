@@ -36,7 +36,7 @@ function ajouterClasse($nom_classe){
     $ajout1= 'INSERT INTO classe (nom_classe) VALUES ($nom_classe)';    
     $con->exec($ajout1);
     }
-    catch(PDOEception $e){
+    catch(PDOException $e){
         echo $ajout1 . "<br>" . $e->getMessage();
     }
   }
